@@ -26,6 +26,8 @@ public class MatureGame {
       }else{
         System.out.println("Player " + player + " has a brain and can stay");
       }
+
+      System.out.println("Currently working in the dev branch");
     }
   }
 
