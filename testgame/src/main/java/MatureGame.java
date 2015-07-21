@@ -17,7 +17,7 @@ public class MatureGame {
     Random r = new Random();
 
     for(int i=0; i< 20; i++){
-      System.out.println("Game Round + " + i);
+      System.out.println("Main Game Round + " + i);
 
       int player = r.nextInt(players.size());
       if(players.get(player).contains("Teenager")){
